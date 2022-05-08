@@ -12,15 +12,16 @@ Then, using different recommenders (Linear Regression or Random Forest), tries t
 3. Clone [this repository](https://github.com/jakuubs/Recommender-Systems.git):
     <pre>git clone https://github.com/jakuubs/Recommender-Systems.git</pre>
 4. Prepare your conda environment (instructions given for Windows, but it should be similar on other systems):
+
     1. Open Anaconda Prompt as administrator.
     2. Make sure you're in the repository main folder. Run the following command:
             <pre>conda env create --name recommender -f environment.yml</pre>
         You can replace *recommender* with your own environment name.
         You may need to install a C++ compiler to install certain packages.
-        ---
+        
         **NOTE**<br>
         There might be some problems with package <u><i>hyperopt</i></u>. In such case you can install the package manually with <i>conda</i> or <i>pip</i> and it should work perfectly.
-        ---
+        
 5. In Command Prompt open the repository folder and activate just created environment with the following command:
     <pre>conda activate recommender</pre>
 6. In Command Prompt type:
